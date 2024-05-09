@@ -161,3 +161,50 @@ button:hover{
     box-shadow:0px 10px 15px  #06171f ;
 
 }
+
+@media only screen and (max-width: 600px) {
+    #menu-superior{
+        padding-bottom: 20px;
+    }
+
+    #titulo{
+        margin-left: 0px;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    #paragrafo{
+        margin-left: 0px;
+        margin-top: 15px;
+        padding-bottom: 50px;
+    }
+
+    #video{
+        margin: 20px 0px;
+    }
+
+    .texto-video{
+        margin: 20px 0px;
+    }
+
+    #carrossel{
+        padding: 30px;
+    }
+
+    #titulo-carrossel{
+        font-size: 20px;
+    }
+
+    .card{
+        margin: 0px 5px;
+    }
+
+    #titulo-formulario{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    input, button{
+        width: 90%;
+    }
+}
