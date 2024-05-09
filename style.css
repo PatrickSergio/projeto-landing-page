@@ -162,49 +162,52 @@ button:hover{
 
 }
 
-@media only screen and (max-width: 600px) {
-    #menu-superior{
-        padding-bottom: 20px;
-    }
-
-    #titulo{
-        margin-left: 0px;
+/* Media Queries */
+@media (max-width: 768px) {
+    #titulo {
+        margin-left: 10px;
         margin-top: 20px;
-        font-size: 20px;
+        font-size: 1.5rem;
     }
-
-    #paragrafo{
-        margin-left: 0px;
-        margin-top: 15px;
-        padding-bottom: 50px;
+    #paragrafo {
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: 0.8rem;
     }
-
-    #video{
-        margin: 20px 0px;
+    #menuinformacional {
+        grid-auto-flow: row;
+        text-align: center;
     }
-
-    .texto-video{
-        margin: 20px 0px;
+    .icone {
+        margin: 10px 0;
     }
-
-    #carrossel{
-        padding: 30px;
+    #secaovideo {
+        grid-auto-flow: row;
     }
-
-    #titulo-carrossel{
-        font-size: 20px;
+    #titulo-meio, #paragrafo-meio {
+        margin: 10px;
+        text-align: center;
     }
-
-    .card{
-        margin: 0px 5px;
+    #video {
+        margin: 10px;
     }
-
-    #titulo-formulario{
-        font-size: 20px;
-        margin-top: 15px;
+    #carrossel {
+        padding: 20px;
     }
-
-    input, button{
+    #titulo-carrossel {
+        font-size: 1.5rem;
+    }
+    .card {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    #titulo-formulario {
+        margin-top: 20px;
+        font-size: 1.5rem;
+    }
+    input, button {
         width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
